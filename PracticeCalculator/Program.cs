@@ -64,7 +64,7 @@ namespace HelloWorld
             
             Console.WriteLine("Enter your name: "); // This is how you ask for user input
             string userName = Console.ReadLine(); // This is how you store user input
-            Console.WriteLine("Hello " + userName); // This is how you output user input
+            Console.WriteLine("Hello " + userName); // This is how you output user inputs
         }
     }
 }
