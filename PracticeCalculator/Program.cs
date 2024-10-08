@@ -51,6 +51,20 @@ namespace HelloWorld
             
             double myDouble = 5.99D; // This is how decimals are stored
             Console.WriteLine(myDouble);
+
+            int castInt = 18;
+            double myCastDouble = castInt; // This is how you implicitly cast an int to a double
+            Console.WriteLine(castInt);
+            Console.WriteLine(myCastDouble);
+            
+            double myExplicitDouble = 9.78;
+            int myExplicitInt = (int) myExplicitDouble; // This is how you explicitly cast a double to an int
+            Console.WriteLine(myExplicitDouble);
+            Console.WriteLine(myExplicitInt);
+            
+            Console.WriteLine("Enter your name: "); // This is how you ask for user input
+            string userName = Console.ReadLine(); // This is how you store user input
+            Console.WriteLine("Hello " + userName); // This is how you output user input
         }
     }
 }
