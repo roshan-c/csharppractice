@@ -41,6 +41,16 @@ namespace HelloWorld
             int x = 5;
             int y = 10;
             Console.WriteLine(x + y); // This will output 5 + 10, which equals 15
+
+            int a = 1, b = 2, c = 3;
+            Console.WriteLine(a+b+c);
+
+            int d, e, f;
+            d = e = f = 4;
+            Console.WriteLine(d+e+f);
+            
+            double myDouble = 5.99D; // This is how decimals are stored
+            Console.WriteLine(myDouble);
         }
     }
 }
